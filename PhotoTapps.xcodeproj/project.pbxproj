@@ -13,6 +13,7 @@
 		A867CFA62977F6E9002AF1A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A867CFA52977F6E9002AF1A8 /* Assets.xcassets */; };
 		A867CFA92977F6E9002AF1A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A867CFA72977F6E9002AF1A8 /* LaunchScreen.storyboard */; };
 		A867CFB12977F9C4002AF1A8 /* PhotosCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A867CFB02977F9C4002AF1A8 /* PhotosCollectionViewController.swift */; };
+		A867CFB329782DE0002AF1A8 /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A867CFB229782DE0002AF1A8 /* PhotoCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		A867CFA82977F6E9002AF1A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A867CFAA2977F6E9002AF1A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A867CFB02977F9C4002AF1A8 /* PhotosCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosCollectionViewController.swift; sourceTree = "<group>"; };
+		A867CFB229782DE0002AF1A8 /* PhotoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +60,9 @@
 			children = (
 				A867CF9C2977F6E7002AF1A8 /* AppDelegate.swift */,
 				A867CF9E2977F6E7002AF1A8 /* SceneDelegate.swift */,
-				A867CFA22977F6E7002AF1A8 /* Main.storyboard */,
 				A867CFB02977F9C4002AF1A8 /* PhotosCollectionViewController.swift */,
+				A867CFB229782DE0002AF1A8 /* PhotoCell.swift */,
+				A867CFA22977F6E7002AF1A8 /* Main.storyboard */,
 				A867CFA52977F6E9002AF1A8 /* Assets.xcassets */,
 				A867CFA72977F6E9002AF1A8 /* LaunchScreen.storyboard */,
 				A867CFAA2977F6E9002AF1A8 /* Info.plist */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A867CFB329782DE0002AF1A8 /* PhotoCell.swift in Sources */,
 				A867CF9D2977F6E7002AF1A8 /* AppDelegate.swift in Sources */,
 				A867CF9F2977F6E7002AF1A8 /* SceneDelegate.swift in Sources */,
 				A867CFB12977F9C4002AF1A8 /* PhotosCollectionViewController.swift in Sources */,
