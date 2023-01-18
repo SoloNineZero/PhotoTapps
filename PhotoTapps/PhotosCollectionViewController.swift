@@ -8,6 +8,24 @@
 import UIKit
 
 class PhotosCollectionViewController: UICollectionViewController {
+    
+    let photos = [
+        "dog1",
+        "dog2",
+        "dog3",
+        "dog4",
+        "dog5",
+        "dog6",
+        "dog7",
+        "dog8",
+        "dog9",
+        "dog10",
+        "dog11",
+        "dog12",
+        "dog13",
+        "dog14",
+        "dog15"
+    ]
 
     // количество ячеек в ряд
     let itemsPerRow: CGFloat = 2
@@ -34,13 +52,16 @@ class PhotosCollectionViewController: UICollectionViewController {
 
     override func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of items
-        return 100
+        return photos.count
     }
 
     override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "photoCell", for: indexPath)
-    
-        cell.backgroundColor = .black
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "photoCell", for: indexPath) as! PhotoCell
+        
+        let imageName = photos[indexPath.item]
+        let image = UIImage(named: imageName)
+        
+        cell.dogImageView.image = image
     
         return cell
     }
